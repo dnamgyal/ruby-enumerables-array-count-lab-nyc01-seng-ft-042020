@@ -4,8 +4,9 @@ def count_strings(array)
   array.count do |element|
     if element.isvalue? String
       count += 1 
-    end 
-    count 
+    end
+  end 
+  count 
 end
 
 def count_empty_strings(array)
@@ -15,5 +16,6 @@ def count_empty_strings(array)
     if element.empty?
       count += 1 
     end
-    count 
+  end   
+  count 
 end
